@@ -1,0 +1,83 @@
+body {
+    font-family: cursive;
+    margin: 0px
+}
+p.main {
+    background-color: #333;
+    color: #9ff;
+    padding: 10px 0px;
+    margin: 0px;
+}
+ul {
+    padding-left: 0px;
+}
+li.children {
+    list-style: none;
+padding: 10px;
+border: 1px solid #eee;
+border-radius: 10px;
+margin-bottom: 10px;
+background: #ecf8ff;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: rgb(0, 80, 133);
+align-items: center;
+font-family: cursive;
+font-weight: bold;
+justify-content: center;
+}
+
+h1 {
+    color: rgb(0, 80, 133);
+    font-family: cursive;
+}
+
+p.lead {
+    text-transform: initial;
+letter-spacing: 0px;
+font-family: cursive;
+color: #000;
+font-weight: 100;
+font-size: 14px;
+}
+
+li.children button {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 10px;
+font-weight: 300;
+background-color: rgb(0, 52, 184);
+padding: 5px;
+border-radius: 3px;
+border: 0px
+}
+
+li.children button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul.parents {
+    height: 500px;
+overflow: hidden;
+overflow-y: scroll;
+}
+
+.parents::-webkit-scrollbar-thumb {
+border-radius: 0;
+border: 0;
+background-color: rgb(0, 80, 133);
+}
+
+.parents::-webkit-scrollbar {
+-webkit-appearance: none;
+width: 2px;
+height: 2px;
+background-color: #ddd;
+}
